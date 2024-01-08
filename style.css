@@ -1,7 +1,6 @@
-* {
-  border: 0px;
+main{
+  margin: 0 auto;
 }
-
 .banner {
   border-radius: 16px;
   max-width: 1320px;
@@ -56,7 +55,7 @@
   display: flex;
   /* align-items: end; */
   width: 100%;
-  max-width: 1120px;
+  max-width: 1120px; */
   height: 510px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 80%),
     url("images/Vectorrr.png");
@@ -175,12 +174,9 @@
 }
 .discount {
   border-radius: 20px;
-  padding-top: 0px;
   width: 100%;
   max-width: 1320px;
-  height: 900px;
-  /* background-color: aqua; */
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .discount-writing {
   text-align: center;
@@ -206,7 +202,6 @@
   position: relative;
   height: 600px;
 }
-
 .rectangle-2 {
   position: absolute;
   top: 350px;
@@ -268,7 +263,6 @@
   font-weight: 400;
   line-height: 40px; /* 160% */
 }
-
 .subscribe-newsletter input {
   border-radius: 50px 0px 0px 50px;
   background: #fff;
@@ -289,14 +283,6 @@
   border: 0px;
   text-align: center;
   font-size: 30px;
-}
-
-.gallery {
-  width: 100%;
-  max-width: 1320px;
-  height: 600px;
-  /* display: flex; */
-  margin: 0 auto;
 }
 .gallery h3 {
   color: #f00;
@@ -371,11 +357,13 @@
 .footer-main {
   /* border-radius: 16px; */
   width: 100%;
+  max-width: 1323px;
   height: 450px;
   /* background-color:aqua; */
   background-color: black;
-  margin: 40px 0px 0px 0px;
+  margin: 30px auto;
   position: relative;
+  border-radius: 30px;
 }
 .footer-main p {
   position: absolute;
@@ -406,6 +394,7 @@
   width: 24px;
 }
 .footer-img {
+  /* justify-content: center */
   position: absolute;
   left: 550px;
   top: 200px;
@@ -431,13 +420,17 @@
   display: flex;
   justify-content: center;
 }
-
 main {
   padding-left: 30px;
   padding-right: 30px;
 }
-
-footer .c {
-  padding-left: 20px;
-  padding-right: 20px;
+.footer-alai p{
+  position: absolute;
+  top: 320px;
+}
+.footer-alai a{
+  font-size: 30px;
+  position: absolute;
+  top: 360px;
+  right: 100px;
 }
