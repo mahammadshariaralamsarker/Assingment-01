@@ -45,7 +45,7 @@
     url("images/Vectorrr.png");
   font-family: Merriweather;
   color: #ffffff;
-  margin: auto;
+  margin: 0 auto;
   background-repeat: no-repeat;
   margin-top: 50px;
   font-size: 40px;
@@ -76,14 +76,15 @@
 }
 .victor-image img {
   display: flex;
-  width: 319.83px;
-  height: 464.662px;
-  padding: 0.008px 0px 0px 0px;
+  width: 310px;
+  height: 430px;
+  padding: 0px 0px 0px 0px;
   flex-direction: column;
   justify-content: center;
   align-items: end;
   flex-shrink: 0;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  border-radius: 16px;
 }
 .banner-3 {
   width: 100%;
@@ -122,24 +123,26 @@
 .best-offer {
   width: 100%;
   max-width: 1320px;
-  height: 600px;
+  height: 480px;
   margin: auto;
   display: flex;
   gap: 40px;
-  /* align-items: center; */
-  justify-content: center;
-  background-color: aqua;
-  gap: 40px;
-}
-.row-1{
   align-items: center;
+  justify-content: center;
+  background-color: none;
+  gap: 40px;
+  padding: 0px 25px;
+}
+.row-1 {
+  align-items: center;
+  width: 30%;
 }
 .row-1 h3 {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 5px;
   line-height: normal;
 }
 .row-1 p {
@@ -153,7 +156,7 @@
 }
 .row-2 {
   height: 100%;
-  width: 30%;
+  width: 40%;
   /* border: 15px solid black; */
   border-radius: 100%;
 }
@@ -161,6 +164,8 @@
   margin: 60px;
   border: 18px solid red;
   border-radius: 0100%;
+  padding: 10px;
+  background-color: #fff;
 }
 .row-3 h1 {
   color: #f00;
@@ -191,7 +196,7 @@
   margin: auto;
   background-repeat: no-repeat;
   margin-top: 25px;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 900px;
   line-height: 5px;
   padding-top: 30px;
@@ -237,4 +242,40 @@
   border: 0px;
   text-align: center;
   font-size: 30px;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 1320px;
+  height: 600px;
+  /* display: flex; */
+  margin: 0 auto;
+}
+.gallery h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gallery h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gallery p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.row-one img {
+  padding: 18px;
+  display: flex;
 }
